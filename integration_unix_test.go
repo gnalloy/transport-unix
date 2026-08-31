@@ -29,7 +29,7 @@ func TestUnixTransportEchoSmoke(t *testing.T) {
 	}
 	defer workers.Shutdown(context.Background())
 
-	path := filepath.Join(t.TempDir(), "gnalloy.sock")
+	path := filepath.Join(shortSocketDir(t), "g.sock")
 	server, err := bootstrap.NewServerBootstrap().
 		Group(boss, workers).
 		Transport(NewTransport(DefaultConfig())).
