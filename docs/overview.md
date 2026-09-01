@@ -19,10 +19,12 @@ This module owns an I/O boundary. It creates or adapts Gnalloy Channels for a co
 - `gnalloy.org/transport-unix` (`unix`)
 
 ## Direct Gnalloy Dependencies
+
 - `gnalloy.org/gnalloy`
 
-## Direct Dependents in the Current Module Plan
-- No repository in the current module plan depends on this module directly.
+## Direct Dependents in the Current Repository Set
+
+- No repository in the current local Gnalloy set directly depends on this module.
 
 ## Architecture Position
 

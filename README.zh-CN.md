@@ -41,6 +41,7 @@ GOWORK=off GOTOOLCHAIN=local go test ./... -count=1
 - `gnalloy.org/transport-unix`（`unix`）
 
 ## Gnalloy 依赖
+
 - `gnalloy.org/gnalloy`
 
 ## 常见集成方式
